@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="grid grid-cols-4 gap-4 p-2">
-                                <div class="md:col-span-1 col-span-4">Tipe Barang</div>
+                                <div class="md:col-span-1 col-span-4">Type Barang</div>
                                 <div class="md:col-span-3 col-span-4">
                                     <select v-model="inputP.typeID" class="border border-red-400 rounded" id="">
                                         <option v-for="item in items" :value="item.id" :key="item.id">
@@ -64,7 +64,7 @@
                                 <div class="md:col-span-3 col-span-4">
                                     <input type="number" v-model="inputP.price" class="border border-red-400 rounded">
                                 </div>
-                            </div>
+                            </div>``
                             <div class="grid grid-cols-4 gap-4 p-2">
                                 <button class="py-3 px-6 text-white rounded-lg bg-red-500 shadow-lg block md:inline-block">Save</button>
                             </div>
